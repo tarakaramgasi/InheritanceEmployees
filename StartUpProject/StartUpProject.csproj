@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ContractEmployees\ContractEmployees.csproj" />
+    <ProjectReference Include="..\Employees\Employees.csproj" />
+    <ProjectReference Include="..\FullTimeEmployees\FullTimeEmployees.csproj" />
+    <ProjectReference Include="..\PartTimeEmployees\PartTimeEmployees.csproj" />
+  </ItemGroup>
+
+</Project>
